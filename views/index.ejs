@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Friend App Demo</title>
 </head>
+
 <body>
   <h2>Friend App Chat + Call Demo</h2>
-  <textarea id="chat" cols="50" rows="10" readonly></textarea><br>
-  <input id="msg" placeholder="Type message..." />
+  <textarea id="chat" rows="10" cols="40"></textarea><br>
+  <input id="msg" />
   <button id="send">Send</button>
-  <br><br>
-  <video id="me" autoplay playsinline muted></video>
-  <video id="friend" autoplay playsinline></video>
 
-  <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
-<script src="/script.js"></script>
+  <video id="me" autoplay playsinline></video>
+  <video id="friend" autoplay playsinline></video>
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="/script.js"></script>
 </body>
+
 </html>
